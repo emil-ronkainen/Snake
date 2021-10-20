@@ -71,7 +71,7 @@ class Main:
         self.tp_spawner.draw(self.screen)
         self.enemy_spawner.draw(self.screen)
 
-        content = f"{(len(self.snake.body) - 3) * 10}"
+        content = f"{(len(self.snake.body) - 3) * 10 + self.enemy_spawner.destroyed_enemy_count}"
         text = pygame.font.Font.render(pygame.font.SysFont("arial", 64), content, True, (255, 255, 255))
         self.screen.blit(text, (C.WIDTH / 2, C.HEIGHT / 100))
 

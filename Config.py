@@ -3,7 +3,7 @@ class Config:
   # docstring
 
   TICKRATE = 20 # Ticks between update
-  SIZE = WIDTH, HEIGHT = 1000, 1000 # Screen size
+  SIZE = WIDTH, HEIGHT = 700, 700 # Screen size
   SQUARE_SIZE = 20
 
   # Colors

@@ -6,7 +6,6 @@ class GameObject(ABC):
     def __init__(self):
         pass
 
-
     @abstractmethod
     def update(self, snake):
         pass
